@@ -14,6 +14,7 @@ export enum SpecialKeyboardKeys {
 const keySequence: string[][] = [
   ["1", "2", "3"],
   ["4", "5", "6"],
+  ["7", "8", "9"],
   [SpecialKeyboardKeys.DELETE, "0", SpecialKeyboardKeys.GUESS],
 ];
 
@@ -70,8 +71,8 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "white",
-    fontSize: 20,
-    margin: 10,
+    fontSize: 18,
+    margin: 5,
   },
   textDisabled: {
     color: "grey",
